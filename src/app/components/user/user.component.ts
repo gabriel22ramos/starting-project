@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 type User = {
   id: string;
@@ -26,4 +26,3 @@ get imagePath() {
   this.select.emit(this.user.id);
  }
 }
-
